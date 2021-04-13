@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    #03001e,
+    #333333,
+    #dd1818,
+    #fdeff9
+  );
+  background-attachment: fixed;
+  background-color: #354538;
+}
+
+/*to change scroll bar color*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #333333, #dd1818);
+}
+
+a {
+  text-decoration: none;
+  color: #03001e;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.app__container {
+  padding-top: 50px;
+}
+.app__row {
+  height: 86vh;
+}
+
+.app__main-content {
+  background-color: white;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px yellow;
+}
+
+/* sidebar */
+.sidebar {
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px yellow;
+  text-align: center;
+}
+.sidebar__avatar {
+  height: 110px;
+  width: 120px;
+  object-fit: contain;
+  border-radius: 30px;
+}
+/* 
+.sidebar__social-icons {
+  color: #333333;
+} */
+.sidebar__icon {
+  width: 25px;
+  height: 25px;
+}
+/* svg {
+  fill: currentColor;
+} */
+
+.sidebar__name {
+  font-family: "Kaushan Script";
+  margin: 20px 0;
+}
+
+.sidebar__name > span {
+  color: #dd1818;
+}
+
+.sidebar__item {
+  margin-bottom: 6px;
+  margin-top: 6px;
+  height: 40px;
+  font-size: 1.05rem;
+  border-radius: 30px;
+}
+
+.sidebar__title {
+  background-color: gainsboro;
+  border-radius: 30px;
+}
+
+.sidebar__contact {
+  background-color: #dbdddf;
+  padding: 2px 0;
+  /* margin: 20px -15px; -15px for removing bootstrap marging */
+  margin: auto;
+  border-radius: 40px;
+}
+
+.sidebar__email {
+  background-image: linear-gradient(
+    to right bottom,
+    #03001e,
+    #333333,
+    #dd1818,
+    #fdeff9
+  );
+  border-radius: 30px;
+  color: #fff;
+  margin: 15px 25px 0px;
+  cursor: pointer;
+}
+
+.sidebar__github:hover,
+.sidebar__resume:hover {
+  background-color: rgb(240, 236, 236);
+}
+
+@media (max-width: 991px) {
+  .app__main-content {
+    margin: 30px 0;
+  }
+}
+
+/* navbar */
+
+.navbar__items {
+  display: flex;
+}
+.navbar__active {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #dd1818;
+  border-bottom: 4px solid #333333;
+}
+
+.navbar__item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.navbar__item:hover {
+  background: rgb(26, 236, 61);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*about*/
+.about {
+  padding: 20px;
+}
+.about__intro {
+  font-size: 1.1rem;
+  padding: 20px;
+  margin: 10px 0;
+}
+.about__container {
+  background-color: #dbdddf;
+  padding: 30px 20px;
+}
+.about__heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: #354358;
+  margin-left: 10px;
+}
+/*skillcard*/
+.skill-card {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.skill-card__icon {
+  height: 40px;
+  width: 40px;
+}
+.skill-card-body {
+  margin-left: 15px;
+}
+.skill_card__content {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6e7e91;
+}
+
+/*resume*/
+.resume {
+  padding-top: 20px;
+}
+.resume-card__heading,
+.resume-language__heading {
+  margin-left: 10px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #353538;
+}
+.resume-car__body {
+  margin-top: 10px;
+}
+.resume-card__title {
+  font-weight: 700;
+}
+.resume-card__name {
+  font-size: 16px;
+}
+.resume-card__details {
+  font-size: 0.9rem;
+  padding-top: 5px;
+}
+
+/*bar*/
+.bar {
+  width: 90%;
+  background-color: #f1f2f3;
+  margin-bottom: 12px;
+  border-radius: 20px;
+}
+.bar__icon {
+  width: 15px;
+  height: 15px;
+}
+.bar__wrapper {
+  background-image: linear-gradient(90deg, #333333, #dd1818);
+  border-radius: 20px;
+  padding: 4px 14px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/*Projects*/
+.projects {
+  height: 72vh;
+  padding-top: 30px;
+  overflow-y: auto;
+}
+.projectCard_wrapper {
+  margin: 10px;
+  width: 100%;
+  height: 100%;
+  min-height: 160px;
+}
+.projectCard_image {
+  width: 100%;
+  height: 80%;
+  border-radius: 30px;
+  border: 1px solid purple;
+  transition: transform 0.3s linear;
+}
+.projectCard_image:hover {
+  transform: scale(1.05);
+}
+.projectCard_icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.projectCard_title {
+  margin-top: 12px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects_navbar {
+  display: flex;
+  margin-bottom: 5px;
+  background-color: #dbdddf;
+}
+.projects_navbar > div {
+  margin: 0 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .app__main-content {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .navbar__active {
+    font-size: 1.5rem;
+  }
+
+  .navbar__item {
+    font-size: 1rem;
+  }
+}
