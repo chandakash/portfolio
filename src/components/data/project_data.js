@@ -39,7 +39,7 @@ const data_projects = [
     {
         name: 'portfolio',
         image: portfolio,
-        deployed_url: 'https://akashchand1703-portfolio-react.herokuapp.com/',
+        deployed_url: 'https://akashchand1703-portfolio.herokuapp.com/',
         github_url: 'https://github.com/chandakash/portfolio',
         category: ['react.js']
     },
