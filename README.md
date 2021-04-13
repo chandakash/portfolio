@@ -9,7 +9,7 @@ React based single page portfolio.
 
 ## View
 Deployed on heroku
-To view Deployed App [click here](https://akashchand1703-portfolio-react.herokuapp.com/).
+To view Deployed App [click here](https://akashchand1703-portfolio.herokuapp.com/).
 
 #### Example:  
 
