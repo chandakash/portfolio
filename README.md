@@ -1,15 +1,15 @@
-# Bill Management App
+# Akash Chand Portfolio
 
 ## About
 
-React based Bill management Dashboard
+React based single page portfolio.
 
 ## Preview
 ![](preview.gif)
 
 ## View
 Deployed on heroku
-To view Deployed App [click here](https://bill-management-react.herokuapp.com/).
+To view Deployed App [click here](https://akashchand1703-portfolio.herokuapp.com/).
 
 #### Example:  
 
